@@ -77,9 +77,9 @@ def plotfunction ( str ):
 	plt.xlabel('Time (ps)')
 	plt.ylabel('MSD (nm)')
 	plt.xlim(0, 50)
-	plt.savefig('All_color_new.png')
+	plt.savefig('All_color.png')
 	#plt.show ()
-	with open ("A_values_new.txt", "a") as myfile:
+	with open ("A_values.txt", "a") as myfile:
 		myfile.write('%.2f,%5.2f,%5.2f \n' % (i[j], index, indexErr ))
 	return
 
